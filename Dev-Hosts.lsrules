@@ -7,8 +7,8 @@
   { "action": "allow", "remote-hosts": "pypi.org" },
   { "action": "allow", "remote-hosts": "files.pythonhosted.org" },
   { "action": "allow", "remote-hosts": "registry.npmjs.org" },
-  { "action": "allow", "remote-hosts": "*.huggingface.co" },
-  { "action": "allow", "remote-hosts": "*.ollama.ai" },
-  { "action": "allow", "remote-hosts": "*.mistral.ai" }
+  { "action": "allow", "remote-hosts": "huggingface.co" },
+  { "action": "allow", "remote-hosts": "ollama.ai" },
+  { "action": "allow", "remote-hosts": "mistral.ai" }
   ]
 }
