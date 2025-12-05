@@ -1,0 +1,23 @@
+{
+  "format": 2,
+  "name": "Baseline Privacy - Blocked Hosts",
+  "denied-remote-domains": [
+    "google-analytics.com",
+    "doubleclick.net", 
+    "facebook.com",
+    "fbcdn.net",
+    "telemetry.microsoft.com",
+    "data.microsoft.com",
+    "events.data.microsoft.com",
+    "log.zoom.us",
+    "telemetry.zoom.us",
+    "metrics.apple.com",
+    "xp.apple.com",
+    "api.smoot.apple.com",
+    "optimizely.com",
+    "branch.io",
+    "mixpanel.com",
+    "segment.io",
+    "segment.com"
+  ]
+}
