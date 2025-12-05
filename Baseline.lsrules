@@ -1,0 +1,35 @@
+{
+  "format": 2,
+  "name": "Baseline Mandatory Privacy",
+  "rules": [
+
+    { "action": "deny", "host": "google-analytics.com" },
+    { "action": "deny", "host": "*.google-analytics.com" },
+
+    { "action": "deny", "host": "doubleclick.net" },
+    { "action": "deny", "host": "*.doubleclick.net" },
+
+    { "action": "deny", "host": "*.facebook.com" },
+    { "action": "deny", "host": "*.fbcdn.net" },
+
+    { "action": "deny", "host": "*.telemetry.microsoft.com" },
+    { "action": "deny", "host": "*.data.microsoft.com" },
+    { "action": "deny", "host": "*.events.data.microsoft.com" },
+
+    { "action": "deny", "host": "*.log.zoom.us" },
+    { "action": "deny", "host": "*.telemetry.zoom.us" },
+
+    { "action": "deny", "host": "*.metrics.apple.com" },
+    { "action": "deny", "host": "xp.apple.com" },
+    { "action": "deny", "host": "api.smoot.apple.com" },
+
+    { "action": "deny", "host": "*.optimizely.com" },
+    { "action": "deny", "host": "*.branch.io" },
+    { "action": "deny", "host": "*.mixpanel.com" },
+    { "action": "deny", "host": "*.segment.io" },
+    { "action": "deny", "host": "*.segment.com" },
+
+    { "action": "deny", "process": "mdnsresponder" },
+    { "action": "deny", "process": "sharingd" }
+  ]
+}

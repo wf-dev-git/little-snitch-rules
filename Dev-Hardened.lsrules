@@ -1,0 +1,37 @@
+{
+  "format": 2,
+  "name": "Dev / Hardened Mode",
+  "rules": [
+
+    { "action": "allow", "process": "ProtonVPN" },
+    { "action": "allow", "process": "ProtonDrive" },
+
+    { "action": "allow", "process": "Brave Browser" },
+    { "action": "allow", "process": "Firefox" },
+
+    { "action": "allow", "process": "Terminal" },
+    { "action": "allow", "process": "node" },
+    { "action": "allow", "process": "python3" },
+    { "action": "allow", "process": "git" },
+    { "action": "allow", "host": "github.com" },
+    { "action": "allow", "host": "raw.githubusercontent.com" },
+    { "action": "allow", "host": "pypi.org" },
+    { "action": "allow", "host": "files.pythonhosted.org" },
+    { "action": "allow", "host": "registry.npmjs.org" },
+
+    { "action": "allow", "host": "*.huggingface.co" },
+    { "action": "allow", "host": "*.ollama.ai" },
+    { "action": "allow", "host": "*.mistral.ai" },
+
+    { "action": "deny", "process": "Microsoft Teams" },
+    { "action": "deny", "process": "zoom.us" },
+    { "action": "deny", "process": "GoToMeeting" },
+
+    { "action": "deny", "process": "OneDrive" },
+    { "action": "deny", "process": "Notion" },
+
+    { "action": "deny", "process": "trustd" },
+
+    { "action": "allow", "process": "softwareupdated" }
+  ]
+}

@@ -1,0 +1,76 @@
+##
+# Clean macOS Hosts File – Aggressive Privacy Version
+# Safe for: Zoom, Teams, GoToMeeting, Browsers, ProtonDrive/VPN,
+# GitHub, npm, PyPI, Notion, Obsidian, Streaming.
+# Blocks: telemetry, analytics, tracking, ad beacons, experiments,
+# marketing endpoints.
+##
+
+127.0.0.1 localhost
+255.255.255.255 broadcasthost
+::1 localhost
+
+# ===== Apple Telemetry (Blocked, but OS remains functional) =====
+0.0.0.0 xp.apple.com
+0.0.0.0 metrics.apple.com
+0.0.0.0 metrics.icloud.com
+0.0.0.0 api.smoot.apple.com
+0.0.0.0 configuration.apple.com
+0.0.0.0 activity.apple.com
+0.0.0.0 radarsubmissions.apple.com
+
+# ===== Microsoft Telemetry (Safe to block) =====
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 oca.microsoft.com
+0.0.0.0 mobile.pipe.aria.microsoft.com
+0.0.0.0 browser.pipe.aria.microsoft.com
+0.0.0.0 self.events.data.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 umwatsonc.events.data.microsoft.com
+
+# ===== Zoom Telemetry (Core zoom.us remains allowed) =====
+0.0.0.0 log.zoom.us
+0.0.0.0 telemetry.zoom.us
+0.0.0.0 logfiles.zoom.us
+
+# ===== Google Tracking =====
+0.0.0.0 google-analytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 analytics.google.com
+
+# ===== Facebook/Meta Tracking =====
+0.0.0.0 graph.facebook.com
+0.0.0.0 connect.facebook.net
+
+# ===== LinkedIn / MS-owned tracking =====
+0.0.0.0 px.ads.linkedin.com
+0.0.0.0 analytics.pointdrive.linkedin.com
+
+# ===== CDN-based tracking =====
+0.0.0.0 cdn.optimizely.com
+0.0.0.0 cdn.segment.com
+0.0.0.0 events.segment.com
+
+# ===== Marketing SDKs =====
+0.0.0.0 app-measurement.com
+0.0.0.0 adjust.com
+0.0.0.0 branch.io
+0.0.0.0 mixpanel.com
+0.0.0.0 api.mixpanel.com
+
+# ===== Misc Tracking =====
+0.0.0.0 scores.bidswitch.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 adservice.google.com
+0.0.0.0 adservice.google.ca
+
+# ===== Safe to Block OCSP (kept enabled for compatibility) =====
+# (Blocking these breaks streaming/DRM, so left untouched)
+# ocsp.apple.com
+# ocsp.digicert.com
+
+# ===== End =====
