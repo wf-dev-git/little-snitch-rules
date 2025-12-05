@@ -2,9 +2,10 @@
   "format": 2,
   "name": "Workstation Hosts",
   "rules": [
-  { "action": "allow", "remote-hosts": "*.netflix.com" },
-  { "action": "allow", "remote-hosts": "*.youtube.com" },
-  { "action": "allow", "remote-hosts": "*.primevideos.com" },
+  { "action": "allow", "remote-hosts": "vimeo.com" },
+  { "action": "allow", "remote-hosts": "rumble.com" },
+  { "action": "allow", "remote-hosts": "youtube.com" },
+  { "action": "allow", "remote-hosts": "primevideos.com" },
   { "action": "allow", "remote-hosts": "updates.cdn-apple.com" },
   { "action": "allow", "remote-hosts": "swscan.apple.com" }
   ]
