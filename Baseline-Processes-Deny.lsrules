@@ -1,0 +1,8 @@
+{
+  "format": 2,
+  "name": "Baseline Privacy Processes",
+  "rules": [
+    { "action": "deny", "process": "mdnsresponder" },
+    { "action": "deny", "process": "sharingd" }
+  ]
+}
