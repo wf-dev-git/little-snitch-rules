@@ -1,0 +1,17 @@
+{
+  "format": 2,
+  "name": "Workstation Processes",
+  "rules": [
+  { "action": "allow", "process": "Brave Browser" },
+  { "action": "allow", "process": "Firefox" },
+  { "action": "allow", "process": "Safari" },
+  { "action": "allow", "process": "zoom.us" },
+  { "action": "allow", "process": "Microsoft Teams" },
+  { "action": "allow", "process": "GoToMeeting" },
+  { "action": "allow", "process": "Notion" },
+  { "action": "allow", "process": "Obsidian" },
+  { "action": "allow", "process": "ProtonVPN" },
+  { "action": "allow", "process": "ProtonDrive" },
+  { "action": "allow", "process": "softwareupdated" }
+  ]
+}
